@@ -34,13 +34,13 @@ XRPL Account Monitor is an Arduino project that connects to a specified WiFi net
 
 1. Clone this repository or download the ZIP file and extract it.
 
-2. Open the `xrplaccountmonitor.ino` file in the Arduino IDE.
+2. Open the `ledger_account_monitor.ino` file in the Arduino IDE.
 
 3. Install the required libraries:
    - ArduinoJson
    - WebSockets
 
-4. Configure your WiFi credentials and XRPL wallet address in the `xrplaccountmonitor.ino` file:
+4. Configure your WiFi credentials and XRPL wallet address in the `ledger_account_monitor.ino` file:
 
    ```cpp
    const char* ssid = "Your_SSID";
