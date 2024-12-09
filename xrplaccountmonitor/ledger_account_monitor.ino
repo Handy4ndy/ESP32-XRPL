@@ -1,21 +1,39 @@
-// XRPL Account monitor created by Handy_4ndy
+/*
+ XRPL Account Monitor - Monitor XRP Ledger account transactions using WebSockets.
+ Created by Handy_4ndy.
 
+ This project connects to a specified WiFi network and monitors an XRPL (XRP Ledger) account
+ using WebSockets. It processes different types of transactions such as payments, trust lines,
+ and offers, and provides audio-visual feedback using an LED and a speaker.
 
+ Please see the README.md File to get started.
+
+ This code is free software; you can redistribute it and/or modify it under the terms of the
+ GNU Lesser General Public License as published by the Free Software Foundation; either
+ version 2.1 of the License, or (at your option) any later version.
+
+ This code is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
+ without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ See the GNU Lesser General Public License for more details.
+
+*/
+
+// Required header files
 #include <WiFi.h>
 #include <WebSocketsClient.h>
 #include <ArduinoJson.h>
 #include "pitches.h" // Include the pitches header file for note definitions
 
 // WiFi credentials
-const char* ssid = "Handy_wifi"; // Insert the network SSID you want to connect to
-const char* password = "qwerty123"; // Provide the password for the network
+const char* ssid = "YOUR_NETWORK_SSID"; // Insert the network SSID you want to connect to
+const char* password = "YOUR_NETWORK_PASSWORD"; // Provide the password for the network
 
 // WebSocket server details
 const char* wsServer = "s1.ripple.com";
 const int wsPort = 51233;
 
 // XRPL wallet address to monitor
-const char* walletAddress = "rJBFRnbNiTskPhMdL4Q6f82tpMDmKLvVCV"; // Replace with your account address
+const char* walletAddress = "YOUR_WALLET_ADDRESS"; // Replace with your account address
 
 // Pin definitions
 const int LED = 5; // LED Pin
