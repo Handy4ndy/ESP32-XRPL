@@ -44,6 +44,7 @@ XRPL Account Monitor is an Arduino project that connects to a specified WiFi net
    - WiFiManager
 
 5. Upload the code to your ESP32 or compatible microcontroller.
+   ** Comment wifiManager.resetSettings(); to disable reset
 
 6. To configure the Network Connection and rAddress, turn on the device and search for the Micro_Ledger wifi signal.
     - Configure WiFi
@@ -54,7 +55,7 @@ XRPL Account Monitor is an Arduino project that connects to a specified WiFi net
 ## Usage
 
 1. Power on your ESP32 or compatible microcontroller.
-2. The device will connect to the specified WiFi network.
+2. The connect the device to the specified WiFi network and assign the rAddress.
 3. Once connected, it will start monitoring the specified XRPL account.
 4. The LED and speaker will provide feedback based on the transactions detected.
 
