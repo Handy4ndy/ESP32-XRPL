@@ -22,18 +22,17 @@
 #include <WiFi.h>
 #include <WebSocketsClient.h>
 #include <ArduinoJson.h>
+#include <WiFiManager.h>
 #include "pitches.h" // Include the pitches header file for note definitions
 
-// WiFi credentials
-const char* ssid = "YOUR_NETWORK_SSID"; // Insert the network SSID you want to connect to
-const char* password = "YOUR_NETWORK_PASSWORD"; // Provide the password for the network
 
-// WebSocket server details
-const char* wsServer = "s1.ripple.com";
-const int wsPort = 51233;
+// XRPL WebSocket server address
+const char* websocket_host = "s1.ripple.com";
+const uint16_t websocket_port = 443;
+const char* websocket_url = "/";
 
-// XRPL wallet address to monitor
-const char* walletAddress = "YOUR_WALLET_ADDRESS"; // Replace with your account address
+// Custom variable for wallet address
+char walletAddress[40] = "";
 
 // Pin definitions
 const int LED = 5; // LED Pin
@@ -51,22 +50,28 @@ void setup() {
   pinMode(LED, OUTPUT);
   pinMode(SPEAKER_PIN, OUTPUT);
 
-  // Connect to WiFi
-  WiFi.begin(ssid, password);
+  // Initialize WiFi Manager
+  WiFiManager wifiManager;
 
-  // Wait until the WiFi is connected
-  while (WiFi.status() != WL_CONNECTED) {
-    delay(1000);
-    Serial.println("Connecting to WiFi...");
-  }
+  // Custom parameter for WiFiManager
+  WiFiManagerParameter custom_text("walletAddress", "Wallet Address", walletAddress, 40);
+  wifiManager.addParameter(&custom_text);
 
-  // Print a message when connected to WiFi
-  Serial.println("Connected to WiFi");
+  // comment the next line to disable reset
+  wifiManager.resetSettings();
+  wifiManager.autoConnect("Micro_Ledger"); 
 
-  // Initialize WebSocket connection
-  webSocket.begin(wsServer, wsPort, "/");
-  webSocket.onEvent(webSocketEvent); // Set the WebSocket event handler
-  webSocket.setReconnectInterval(5000); // Set the reconnection interval to 5000 ms
+  // Save custom parameter value
+  strcpy(walletAddress, custom_text.getValue());
+
+  // Print the wallet address to the serial monitor
+  Serial.print("Wallet Address: ");
+  Serial.println(walletAddress);
+
+
+  // Initialize WebSocket
+  webSocket.begin(websocket_host, websocket_port, websocket_url, "arduino");
+  webSocket.onEvent(webSocketEvent);
 }
 
 void loop() {
