@@ -37,16 +37,15 @@ XRPL Account Monitor is an Arduino project that connects to a specified WiFi net
 
 2. Open the `ledger_account_monitor.ino` file in the Arduino IDE.
 
-3. Install the required libraries:
-4. 
+3. Install the required libraries: 
    - ArduinoJson
    - WebSockets
    - WiFiManager
 
-5. Upload the code to your ESP32 or compatible microcontroller.
+4. Upload the code to your ESP32 or compatible microcontroller.
    ** Comment wifiManager.resetSettings(); to disable reset
 
-6. To configure the Network Connection and rAddress, turn on the device and search for the Micro_Ledger wifi signal.
+5. To configure the Network Connection and rAddress, turn on the device and search for the Micro_Ledger wifi signal.
     - Configure WiFi
       - Network SSID
       - Network PASSWORD
