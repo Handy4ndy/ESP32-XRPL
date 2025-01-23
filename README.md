@@ -1,6 +1,6 @@
 # XRPL Account Monitor
 
-XRPL Account Monitor is an Arduino project that connects to a specified WiFi network and monitors an XRPL (XRP Ledger) account using WebSockets. It processes different types of transactions such as payments, trust lines, and offers, and provides audio-visual feedback using an LED and a speaker.
+XRPL Account Monitor is an ESP32 project that connects to a specified WiFi network and monitors an XRPL (XRP Ledger) rAddress using WebSockets. It processes different types of transactions such as payments, trust lines, and offers, providing audio-visual feedback using an LED and a speaker.
 
 ## Features
 
@@ -16,7 +16,7 @@ XRPL Account Monitor is an Arduino project that connects to a specified WiFi net
 
 - ESP32 or compatible microcontroller with WiFi capability.
 - LED.
-- Speaker or buzzer.
+- Speaker.
 
 ## Software Requirements
 
@@ -30,6 +30,7 @@ XRPL Account Monitor is an Arduino project that connects to a specified WiFi net
 
 - Connect the LED to pin 5.
 - Connect the speaker to pin 4.
+- Ground both connections.
 
 ## Installation
 
@@ -37,13 +38,14 @@ XRPL Account Monitor is an Arduino project that connects to a specified WiFi net
 
 2. Open the `ledger_account_monitor.ino` file in the Arduino IDE.
 
-3. Install the required libraries: 
+3. Extract the files from the Library zip folder and add them to the arduino\libraries or Install the required libraries from the IDE:
+   - WiFI
    - ArduinoJson
    - WebSockets
    - WiFiManager
 
 4. Upload the code to your ESP32 or compatible microcontroller.
-   ** Comment wifiManager.resetSettings(); to disable reset
+   ** Comment wifiManager.resetSettings(); to disable reset on reboot
 
 5. To configure the Network Connection and rAddress, turn on the device and search for the Micro_Ledger wifi signal.
     - Configure WiFi
@@ -54,7 +56,7 @@ XRPL Account Monitor is an Arduino project that connects to a specified WiFi net
 ## Usage
 
 1. Power on your ESP32 or compatible microcontroller.
-2. The connect the device to the specified WiFi network and assign the rAddress.
+2. Connect the device to the specified WiFi network and assign the rAddress. ( Micro_Ledger )
 3. Once connected, it will start monitoring the specified XRPL account.
 4. The LED and speaker will provide feedback based on the transactions detected.
 
