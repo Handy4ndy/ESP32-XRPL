@@ -18,11 +18,11 @@ To build the Developer Kit and follow the tutorials, you will need the following
 - **Tactile Button**
 - **3-Color LED (RGB)**
 - **Buzzer**
-- **Diode**
+- **Diodes**
+- **Resistors** 
 - **0.96" LCD Screen** 
 - **Breadboard**
 - **Jumper Wires**
-- **Resistors** 
 - **USB Cable** 
 
 ---
@@ -38,6 +38,10 @@ The tutorials are divided into **Basic** and **Advanced** levels. Start with the
 4. **04-Display**: Display text and graphics on a 0.96" LCD screen.
 
 Each tutorial has its own `README.md` file in the corresponding directory to explain the contents and guide you through the steps.
+
+Following each build's up your Developer_Kit ready for the Advance tutorials, for referance here's the completed circuit diagram.
+
+![Circuit Diagram](https://github.com/Handy4ndy/ESP32-XRPL/blob/main/src/Developer_Kit/GettingStarted/devKitRef/Developer_Kit.png)
 
 ---
 
@@ -55,7 +59,7 @@ Once you complete the Basic tutorials, you can explore Advanced tutorials that c
 
 1. **Start with the Basics**:
    - Follow the Basic tutorials in sequence to assemble your kit and learn the fundamentals.
-   - Each tutorial includes example code located in the `src/Examples` directory.
+   - Each tutorial includes example code also located in the `src/Examples` directory.
 
 2. **Progress to Advanced Topics**:
    - Once your kit is fully assembled and functional, move on to the Advanced tutorials to explore IoT concepts.
