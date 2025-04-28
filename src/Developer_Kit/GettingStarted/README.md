@@ -39,7 +39,7 @@ The tutorials are divided into **Basic** and **Advanced** levels. Start with the
 
 Each tutorial has its own `README.md` file in the corresponding directory to explain the contents and guide you through the steps.
 
-Following each build's up your Developer_Kit ready for the Advance tutorials, for referance here's the completed circuit diagram.
+Following each build's up your Developer_Kit ready for the Advanced tutorials, for reference here's the completed circuit diagram.
 
 ![Circuit Diagram](https://github.com/Handy4ndy/ESP32-XRPL/blob/main/src/Developer_Kit/GettingStarted/devKitRef/Developer_Kit.png)
 
