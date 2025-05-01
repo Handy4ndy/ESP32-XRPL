@@ -80,6 +80,13 @@ The tutorial also includes a challenge to extend the functionality by adding a n
 
 ---
 
+## Emulate
+
+[Emulate](https://wokwi.com/projects/429706825975820289)
+
+
+---
+
 ## Next Steps
 
 - Once you complete this tutorial, proceed to **Tutorial 03: Alerts** to learn how to generate audio alerts using a buzzer and LED.
