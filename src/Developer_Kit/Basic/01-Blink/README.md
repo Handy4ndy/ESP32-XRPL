@@ -93,7 +93,7 @@ The commented-out `switch` case logic in the code provides a template for refact
 
 ### Emulate
 
-[Emulate]([https://github.com](https://wokwi.com/projects/429706170250877953))
+[Emulate](https://github.com](https://wokwi.com/projects/429706170250877953)
 
 ## Next Steps
 
