@@ -91,6 +91,10 @@ The commented-out `switch` case logic in the code provides a template for refact
 
 ---
 
+### Emulate
+
+[Emulate]([https://github.com](https://wokwi.com/projects/429706170250877953))
+
 ## Next Steps
 
 - Once you complete this tutorial, proceed to **Tutorial 02: Button** to learn how to use a button to control the RGB LED modes.
