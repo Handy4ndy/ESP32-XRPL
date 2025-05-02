@@ -39,7 +39,7 @@ This tutorial demonstrates how to monitor an XRPL account using a WebSocket conn
 3. Connect the speaker or buzzer to GPIO17 and GND.
 4. Connect one leg of the button to GPIO4 and the other leg to GND.
 
-![Circuit Diagram](https://github.com/Handy4ndy/ESP32-XRPL/blob/main/src/Developer_Kit/GettingStarted/devKitRef/04_Display.png)
+![Circuit Diagram](https://github.com/Handy4ndy/ESP32-XRPL/blob/main/src/Developer_Kit/GettingStarted/devKitRef/Developer_Kit.png)
 
 ---
 
