@@ -39,7 +39,11 @@ The tutorials are divided into **Basic** and **Advanced** levels. Start with the
 
 Each tutorial has its own `README.md` file in the corresponding directory to explain the contents and guide you through the steps.
 
-Following each build's up your Developer_Kit ready for the Advanced tutorials, for reference here's the completed circuit diagram.
+---
+
+## Completed Circuit Diagram
+
+Once you have completed the Basic tutorials, your Developer Kit will be fully assembled and ready for the Advanced tutorials. Below is the completed circuit diagram for reference:
 
 ![Circuit Diagram](https://github.com/Handy4ndy/ESP32-XRPL/blob/main/src/Developer_Kit/GettingStarted/devKitRef/Developer_Kit.png)
 
@@ -48,10 +52,21 @@ Following each build's up your Developer_Kit ready for the Advanced tutorials, f
 ## Advanced Tutorials
 
 Once you complete the Basic tutorials, you can explore Advanced tutorials that cover:
-- **Connectivity**: Connect the ESP32 to a WiFi network.
-- **WebSocket Communication**: Establish a WebSocket connection to send and receive data.
-- **Dynamic Display**: Display real-time information on the LCD screen.
-- **Integrated Alerts**: Combine connectivity and alerts for interactive IoT applications.
+
+1. **05-Connectivity**:  
+   Learn how to connect the ESP32 to a WiFi network. This tutorial demonstrates how to handle disconnections and reconnections while displaying the connection status on an OLED screen.
+
+2. **06-WebSocket Communication**:  
+   Establish a WebSocket connection to send and receive data. This tutorial includes subscribing to XRPL ledger streams and displaying updates on an OLED screen.
+
+3. **07-Ledger Stream**:  
+   Track XRPL ledger updates and transaction counts in real-time. This tutorial introduces high score tracking, RGB LED indicators, and advanced OLED display features.
+
+4. **08-Account Monitor**:  
+   Monitor specific XRPL accounts for transactions such as payments, trust lines, and offers. This tutorial includes visual and audio alerts using an RGB LED and a speaker.
+
+Each tutorial builds upon the previous ones, combining connectivity, display, and alert features to create interactive IoT applications.
+
 
 ---
 
