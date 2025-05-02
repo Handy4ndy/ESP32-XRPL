@@ -120,6 +120,12 @@ These challenges will help you practice working with displays, improve your unde
 
 ---
 
+## Emulate
+
+[Emulate](https://wokwi.com/projects/429707740982180865)
+
+---
+
 ## Next Steps
 
 - Once you complete this tutorial, explore the Advanced tutorials to learn about connectivity and IoT concepts.

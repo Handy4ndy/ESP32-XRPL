@@ -108,6 +108,11 @@ These challenges will help you practice modular programming, improve your unders
 
 ---
 
+## Emulate
+
+[Emulate](https://wokwi.com/projects/429707546029863937)
+---
+
 ## Next Steps
 
 - Once you complete this tutorial, proceed to **Tutorial 04: Display** to learn how to display text and graphics on a 0.96" LCD screen.

@@ -1,7 +1,5 @@
 # Tutorial 01: Blink
 
-![Blink Diagram](https://github.com/Handy4ndy/ESP32-XRPL/blob/main/src/Developer_Kit/GettingStarted/devKitRef/01-Blink.png)
-
 ## Overview
 
 This tutorial is part of the ESP32-XRPL Developer Kit and introduces you to controlling an RGB LED using the ESP32. The script demonstrates three different modes of operation for the RGB LED:
@@ -92,6 +90,10 @@ The commented-out `switch` case logic in the code provides a template for refact
 - Add a button connected in parallel with the ground to toggle the LED on/off.
 
 ---
+
+### Emulate
+
+[Emulate](https://wokwi.com/projects/429706170250877953)
 
 ## Next Steps
 
