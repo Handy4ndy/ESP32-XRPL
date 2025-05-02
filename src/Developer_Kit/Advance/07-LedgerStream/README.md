@@ -37,7 +37,7 @@ This tutorial demonstrates how to track XRPL ledger updates and transaction coun
    - **BLUE** to GPIO18.
 3. Connect one leg of the button to GPIO4 and the other leg to GND.
 
-![Circuit Diagram](https://github.com/Handy4ndy/ESP32-XRPL/blob/main/src/Developer_Kit/GettingStarted/devKitRef/04_Display.png)
+![Circuit Diagram](https://github.com/Handy4ndy/ESP32-XRPL/blob/main/src/Developer_Kit/GettingStarted/devKitRef/Developer_Kit.png)
 ---
 
 ## How to Use

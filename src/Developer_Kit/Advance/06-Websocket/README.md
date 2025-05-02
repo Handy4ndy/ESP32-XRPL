@@ -34,7 +34,7 @@ This tutorial is part of the ESP32-XRPL Developer Kit and demonstrates how to co
 2. Connect one leg of the button to GPIO5 and the other leg to GND.
 3. Ensure the ESP32 is powered via USB or an external power source.
 
-![Circuit Diagram](https://github.com/Handy4ndy/ESP32-XRPL/blob/main/src/Developer_Kit/GettingStarted/devKitRef/04_Display.png)
+![Circuit Diagram](https://github.com/Handy4ndy/ESP32-XRPL/blob/main/src/Developer_Kit/GettingStarted/devKitRef/Developer_Kit.png)
 
 ---
 
