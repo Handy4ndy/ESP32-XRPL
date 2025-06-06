@@ -1,3 +1,7 @@
+/*
+This is an unfinished example of gaining a price of a custom pair, matched to RLUSD.
+*/
+
 #include <WiFi.h>
 #include <WebSocketsClient.h>
 #include <Adafruit_GFX.h>
