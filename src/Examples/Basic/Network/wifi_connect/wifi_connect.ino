@@ -17,8 +17,8 @@
 #include <WiFi.h>
 
 // Replace with your network credentials
-const char* ssid = "Your_Network_SSID";
-const char* password = "Your_Network_Password";
+const char* ssid = "Spencer-wifi";
+const char* password = "fuckoffu";
 
 void setup() {
 
@@ -51,7 +51,7 @@ void loop() {
   
   // Add a delay to avoid constant checking
   delay(10000); // Check every 10 seconds (10000 milliseconds)
-  Serial.println("Connected...")
+  Serial.println("Connected...");
 
   // // Uncomment the following lines to simulate a disconnection
   // if (WiFi.status() == WL_CONNECTED) {

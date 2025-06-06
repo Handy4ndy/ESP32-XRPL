@@ -41,7 +41,7 @@ void setup() {
   wifiManager.resetSettings();
 
   // Attempt to connect to WiFi
-  while (!wifiManager.autoConnect("WiFi_Manager")) {
+  while (!wifiManager.autoConnect("WiFi_Test")) {
     Serial.println("Failed to connect to WiFi. Retrying...");
   }
 
@@ -70,7 +70,7 @@ void loop() {
     Serial.println("WiFi disconnected. Reconnecting...");
 
     // Attempt to reconnect to WiFi
-    while (!wifiManager.autoConnect("WiFi_Manager")) {
+    while (!wifiManager.autoConnect("WiFi_Test")) {
       Serial.println("Failed to connect to WiFi. Retrying...");
     }
     Serial.println("Reconnected to WiFi");
