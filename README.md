@@ -23,7 +23,7 @@ These devices are user-friendly, low-power, and designed for both casual users a
 
 ## How It Works
 
-Little Ledger devices connect to blockchain networks via WiFi and use WebSocket technology to receive real-time ledger updates. When a new ledger is published, the device fetches server information and displays key metrics—such as host ID, I/O latency, uptime, and peer count—on its OLED screen. If server performance metrics, like latency, exceed predefined thresholds, the device alerts the user through vibrations and visual cues, ensuring they stay informed about critical network changes.
+Little Ledger devices connect to blockchain networks via WiFi and use WebSocket technology to receive real-time ledger updates. When a new ledger is published, we call other functions such as book_offers or server_info to capture and display real time data that is used to provide alerts the user through haptic, audio and visual cues, ensuring you stay informed about the on-chain events that matter to you.
 
 ## Project Structure
 
@@ -31,15 +31,15 @@ The repository is organized as follows:
 
 - **Little_Ledger/Developer_Kit/**: Step-by-step tutorials and example code for learning and prototyping.
 - **Little_Ledger/Micro_Ledger/**: Wearable device firmware for real-time blockchain monitoring.
-- **Little_Ledger/Examples/**: Additional example projects for display, network, and alert features.
-- **Little_Ledger/Lamp/**: Fun and experimental LED-based projects.
-- **Little_Ledger/Priceaction/**: Price monitoring and analytics modules.
+- **Little_Ledger/Examples/**: Additional example projects for display, network, and alert features to encourage customisation.
+- **Little_Ledger/Lamp/**: Fun and experimental LED-based project modifity the XRPL / Xahau Lamp.
+- **Little_Ledger/Priceaction/**: Price monitoring of custom pairs with RLUSD.
 
 Each directory contains detailed README files and code samples to help you get started.
 
 ## Community and Support
 
-Xspence encourages community participation through an open-source codebase and tutorials for applications like Account Monitor. Support is available via Xspence’s unified channels, fostering collaboration and learning.
+Xspence encourages community participation through an open-source codebase and tutorials for applications of ledger and Account Monitor monitoring. Support is available via Xspence’s unified channels in addition to the [Contact page](https://xspence.co.uk/contact.html), fostering collaboration and learning.
 
 ## Getting Started
 
