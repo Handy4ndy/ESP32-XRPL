@@ -42,7 +42,7 @@ The OLED screen (SSD1306) shows:
 ### Button Controls
 
 - **Short Press (< 2s)**: Resets the device via `ESP.restart()`.
-- **Long Press (≥ 2s)**: Toggles power state—turns off WiFi and display to save power, or restarts if already off.
+- **Long Press (≥ 2s)**: Toggles power state turns off WiFi and display to save power, or restarts if already off.
 
 ---
 
