@@ -1,0 +1,28 @@
+Here is a List of pin connections to aid assembly of the Developer_Kit on the breadboard provided.
+
+ESP32 miccrocontroller:
+A1   {GND} 
+A19  {CLK} 
+
+Diode:
+F7 ->||- E7 {GND}
+
+Button:
+Ground: G28 - C7    {GND}
+Positive: G30 - B13 {gpio4}
+
+LED:
+Ground: J21 - B7   {GND}
+Red:    J22 - B10  {gpio5}
+Green:  J23 - B8   {gpio19}
+Blue:   J24 - B9   {gpio18}
+
+Speaker:
+Ground: J17 - G7    {ext GND}
+Positive: J15 - B11 {gpio17} 
+
+Screen:
+VCC:    I5 - 3v3   {3v3}
+Ground: I4 - B1    {GND}
+SCL:    I3 - B3    {gpio22}
+SDA:    I2 - B6    {gpio21}  
