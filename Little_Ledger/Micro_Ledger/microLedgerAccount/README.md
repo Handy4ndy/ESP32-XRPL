@@ -49,7 +49,7 @@ The OLED screen (SSD1306) shows:
 ### Button Controls
 - **Short Press (<2s)**: Displays the high score and its ledger index for 5 seconds, accompanied by a tune.
 - **Medium Press (2–10s)**: Resets the device via `ESP.restart()`.
-- **Long Press (>10s)**: Enters deep sleep mode, waking on button press (GPIO 9).
+- **Long Press (>10s)**: Enters sleep mode, waking on button press (GPIO 9).
 
 ---
 
@@ -130,12 +130,11 @@ Replace with your desired account address, save, and re-upload.
 
 ## Additional Notes
 
-- **Power Management**: Long-press the button (>10s) to enter deep sleep mode, reducing power consumption. Press the button to wake.
+- **Power Management**: Long-press the button (>10s) to enter sleep mode, reducing power consumption. Press the button to wake.
 - **Debugging**: Monitor logs in the Serial Monitor at 9600 baud for connection status, transaction details, and errors.
 - **Pin Assignments**:
   - Haptic motor: GPIO 8
   - Button: GPIO 9
-  - RGB LED: Red (GPIO 5), Green (GPIO 19), Blue (GPIO 18)
   - Speaker: GPIO 7
 - **Reconnection**: Automatically retries WiFi and WebSocket connections every 4 seconds if disconnected.
 - **High Score Persistence**: Stored in non-volatile memory, preserved across power cycles.
