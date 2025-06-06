@@ -43,7 +43,7 @@ class Alert {
 Alert alert;
 
 void setup() {
-  pinMode(BUTTON_PIN, INPUT_PULLUP); // Assuming active-low button
+  pinMode(BUTTON_PIN, INPUT_PULLUP);
   
   Serial.begin(9600);
 
@@ -60,8 +60,8 @@ void setup() {
 }
 
 void loop() {
-  if (digitalRead(BUTTON_PIN) == LOW) { // Button pressed
-    alert.triggerAlert(200, 500);       // 200ms, 500Hz alert
+  if (digitalRead(BUTTON_PIN) == LOW) {
+    alert.triggerAlert(200, 500);    
     
     display.clearDisplay();
     display.setCursor(0, 0);
