@@ -72,7 +72,3 @@ Update received from: s2.ripple.com
 Ledger Sequence: 94371956
 Total Transactions: 45
 ```
-
-## License
-
-This project is licensed under the GNU Lesser General Public License - see the [LICENSE](LICENSE) file for details.
