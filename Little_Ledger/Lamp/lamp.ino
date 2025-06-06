@@ -39,13 +39,13 @@ const char* walletAddress = "YOUR_WALLET_RADDRESS"; // Replace with your wallet 
 // Function to show a rainbow effect for 3 seconds
 void showRainbowEffect() {
   uint8_t initialHue = 0;
-  const uint8_t deltaHue = 255 / NUM_LEDS; // Spread hues across LEDs
-  const int duration = 5000; // 3 seconds
-  const int frameDelay = 5; // 50ms per frame for smooth animation
+  const uint8_t deltaHue = 255 / NUM_LEDS; 
+  const int duration = 5000; 
+  const int frameDelay = 5; 
   const int numFrames = duration / frameDelay;
 
   for (int frame = 0; frame < numFrames; frame++) {
-    fill_rainbow(leds, NUM_LEDS, initialHue++, deltaHue); // Cycle hues
+    fill_rainbow(leds, NUM_LEDS, initialHue++, deltaHue); 
     FastLED.show();
     delay(frameDelay);
   }
