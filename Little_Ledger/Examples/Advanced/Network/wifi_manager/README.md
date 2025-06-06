@@ -113,7 +113,3 @@ if (strlen(customparam) > 0) {
   Serial.println(customparam);
 }
 ```
-
-## License
-
-This project is licensed under the GNU Lesser General Public License - see the [LICENSE](LICENSE) file for details.
