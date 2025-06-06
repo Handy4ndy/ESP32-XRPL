@@ -9,7 +9,7 @@ Little Ledger is an open-source project by [Xspence](https://xspence.co.uk) that
 
 ## About Xspence
 
-[Xspence](https://xspence.co.uk) is a forward-thinking fintech startup focused on creating innovative blockchain solutions utilizing the XRP Ledger and Xahau Networks. As the driving force behind Little Ledger, XRMine, and Lambriini Art, Xspence is committed to fostering innovation and growth in the blockchain community. The company provides comprehensive documentation, unified support and feedback channels, and maintains the infrastructure necessary for its projects to thrive. A key goal for 2025 is to establish a validator node for the Xahau Network, further solidifying Xspence’s role in advancing decentralized technology.
+[Xspence](https://xspence.co.uk) is a forward-thinking fintech startup focused on creating innovative blockchain solutions utilizing the XRP Ledger and Xahau Networks. As the driving force behind Little Ledger, XRMine, and Lambriini Art, Xspence is committed to fostering innovation and growth in the blockchain community. The company provides comprehensive documentation, unified support and feedback channels, and maintains the infrastructure necessary for its projects to thrive. A key goal for 2025 is to establish a validator node for the XRP Ledger, further solidifying Xspence’s role in advancing decentralized technology.
 
 ## Little Ledger Devices
 
