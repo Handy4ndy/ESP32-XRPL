@@ -17,7 +17,7 @@ Little Ledger offers a range of devices tailored to diverse users:
 
 - **Developer_Kit**: Ideal for hobbyists and developers, this kit includes an ESP32 device and detailed documentation to inspire creativity and enable hands-on blockchain monitoring solutions. The Developer Kit features step-by-step tutorials, example code, and modular hardware to help users learn about connectivity, display, alerts, and real-time blockchain data streaming.
 
-- **Micro_Ledger**: A wearable device for real-time XRP Ledger monitoring. It features a Seeed Xiao ESP32 S3 microcontroller, a 0.96" OLED display, speaker, LEDs, vibration motor, and a 900mAh battery offering up to 12 hours of use. Designed for portability, it includes a 3D printed case and lanyard. The Micro_Ledger provides real-time updates on ledger status, server health, and price information, with visual, haptic, and audio alerts for critical events.
+- **Micro_Ledger**: A wearable device for real-time XRP Ledger monitoring. It features a Seeed Xiao ESP32 S3 microcontroller, a 0.96" OLED display, speaker, LEDs, vibration motor, and a 900mAh battery offering over 12 hours of use on a full charge. Designed for portability, it includes a 3D printed case and lanyard. The Micro_Ledger provides real-time updates on ledger status, server health, and price information, with visual, haptic, and audio alerts for critical events.
 
 These devices are user-friendly, low-power, and designed for both casual users and blockchain enthusiasts.
 
