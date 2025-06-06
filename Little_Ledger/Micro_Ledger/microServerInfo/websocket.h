@@ -8,6 +8,6 @@ namespace WebSocketConnection {
   void begin(Adafruit_SSD1306& display, const char* host, uint16_t port, const char* url, WebSocketMessageCallback callback = nullptr);
   void loop();
   bool isConnected();
-  void send(const char* message); // New function to send WebSocket messages
+  void send(const char* message); 
   void disconnect();
 }
