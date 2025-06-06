@@ -4,7 +4,7 @@
 #include <Adafruit_SSD1306.h>
 #include <ArduinoJson.h>
 #include <Preferences.h>
-#include <cfloat> // Include cfloat to use DBL_MAX
+#include <cfloat> 
 
 // XRPL WebSocket server address
 const char* websocket_host = "s2.ripple.com";
@@ -37,23 +37,23 @@ Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 // Preferences for storing high score and 5-minute high/low prices
 Preferences preferences;
 
-double xrpPriceRLUSD = 0.0; // Store XRP/RLUSD price
-double xahPriceXRP = 0.0;   // Store XAH/XRP price
-double lastPrice = 0.0;     // XAH/RLUSD price
-double highScore = 0.0;
+double xrpPriceRLUSD = 0.0; 
+double xahPriceXRP = 0.0;   
+double lastPrice = 0.0;     
+double highScore = 0.0;      
 double lowPrice = DBL_MAX;
 double highPrice = 0.0;
 double previousLowPrice = 0.0;
 double previousHighPrice = 0.0;
 double previousPercentageMove = 0.0;
 unsigned long windowStartTime = 0;
-const unsigned long windowDuration = 300000; // 5 minutes in milliseconds
+const unsigned long windowDuration = 300000; 
 
-const int redLedPin = 1;
-const int greenLedPin = 2;
+const int redLedPin = 5;  
+const int greenLedPin = 19;
 
 unsigned long lastReconnectAttempt = 0;
-const unsigned long reconnectInterval = 20000; // 20 seconds
+const unsigned long reconnectInterval = 20000; 
 
 int ledgerIndex = 0;
 
@@ -91,12 +91,12 @@ void setup() {
     preferences.putDouble("highScore", highScore);
     Serial.println("Reset highScore to 0.0 due to invalid stored value");
   }
-  Serial.printf("Initial highScore: %f RLUSD\n", highScore); // Debug initial highScore
+  Serial.printf("Initial highScore: %f RLUSD\n", highScore);
   lowPrice = preferences.getDouble("lowPrice", DBL_MAX);
   highPrice = preferences.getDouble("highPrice", 0.0);
 
   // Initialize SSD1306 display
-  if (!display.begin(SSD1306_SWITCHCAPVCC, 0x3C)) { // 0x3C is the I2C address for the SSD1306
+  if (!display.begin(SSD1306_SWITCHCAPVCC, 0x3C)) { 
     Serial.println(F("SSD1306 allocation failed"));
     for (;;);
   }
@@ -123,7 +123,7 @@ void loop() {
   if (millis() - windowStartTime >= windowDuration) {
     // Calculate the percentage move
     double percentageMove = lowPrice != DBL_MAX ? ((highPrice - lowPrice) / lowPrice) * 100 : 0.0;
-    percentageMove = round(percentageMove * 100) / 100; // Round to 2 decimal places
+    percentageMove = round(percentageMove * 100) / 100; 
     Serial.printf("5-minute window: Low Price: %f, High Price: %f, Percentage Move: %.2f%%\n", lowPrice, highPrice, percentageMove);
 
     // Store the previous 5-minute high, low, and percentage move
@@ -198,7 +198,7 @@ void processBookOffers(JsonArray offers, String queryId) {
     JsonObject offer = offers[0];
     if (offer.containsKey("quality")) {
       String quality = offer["quality"].as<String>();
-      Serial.printf("Raw quality for %s: %s\n", queryId.c_str(), quality.c_str()); // Debug quality
+      Serial.printf("Raw quality for %s: %s\n", queryId.c_str(), quality.c_str());
       double price = atof(quality.c_str());
       if (queryId == "xrp_rlusd") {
         price *= 1000000; // Scale for XRP/RLUSD
@@ -230,7 +230,7 @@ void priceAction(double price) {
   }
 
   // Update high score
-  Serial.printf("Comparing price: %f with highScore: %f\n", price, highScore); // Debug comparison
+  Serial.printf("Comparing price: %f with highScore: %f\n", price, highScore); 
   if (price > highScore) {
     highScore = price;
     preferences.putDouble("highScore", highScore);
