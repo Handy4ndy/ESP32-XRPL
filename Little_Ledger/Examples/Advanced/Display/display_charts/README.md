@@ -37,7 +37,3 @@ This script demonstrates various types of charts and chart animations on an OLED
    - Drawing a line chart.
    - Animating a bar chart.
    - Animating a line chart.
-
-## License
-
-This project is licensed under the GNU Lesser General Public License - see the [LICENSE](LICENSE) file for details.
