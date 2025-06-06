@@ -221,10 +221,10 @@ void subscribeToAccount(const char* account) {
 const char* getAmountValue(JsonVariant transaction) {
     static char buffer[32]; 
     if (transaction.is<JsonObject>()) {
-        // Non-XAH (issued currency): return the "value" field directly
+        // Non-XRP (issued currency): return the "value" field directly
         return transaction["value"];
     } else if (transaction.is<const char*>()) {
-        // XAH in drops: convert to XAH
+        // XRP in drops: convert to XRP
         const char* dropsStr = transaction.as<const char*>();
         double drops = atof(dropsStr); 
         double xah = drops / 1000000.0; 
