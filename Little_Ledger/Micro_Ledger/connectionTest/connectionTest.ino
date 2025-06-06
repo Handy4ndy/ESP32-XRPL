@@ -1,3 +1,8 @@
+/*
+This connection test script is designed to test the functionality of the Micro_Ledger device by making use of all of the connections. 
+If you experiance any issues whilst running this script reach out to use through our support channel - https://xspence.co.uk/contact.html
+*/
+
 // ESP32_Project.ino
 #include <Wire.h>
 #include <Adafruit_GFX.h>
