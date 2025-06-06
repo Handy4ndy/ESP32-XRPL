@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Little Ledger is an open-source project by [Xspence](https://xspence.co.uk) that merges Internet of Things (IoT) devices with the Internet of Value (IoV) to deliver real-time monitoring and notifications for the XRP Ledger and Xahau Networks. By subscribing to ledger streams, Little Ledger devices provide instant alerts for on-chain events such as transactions, price changes, and network status, making blockchain activity more accessible and engaging for users. All profits from Little Ledger are reinvested into supporting the ecosystem's growth and infrastructure.
+Little Ledger is an open-source project by [Xspence](https://xspence.co.uk) that merges Internet of Things (IoT) devices with the Internet of Value (IoV) to deliver real-time monitoring and notifications for the XRP Ledger and Xahau Networks. By subscribing to ledger streams, Little Ledger devices provide instant alerts for on-chain events such as transactions, price changes, and network status, making blockchain activity more accessible and engaging for users. Initial profits from Little Ledger will be reinvested into supporting the ecosystem's growth and infrastructure.
 
 > **Educational Focus**
 > Little Ledger have been designed as an educational project to inspire others to develop and increase their C++ programming skills. By working with real-world blockchain data and embedded hardware, users gain practical experience that can be transferred to core protocol development for the XRP Ledger, Xahau, and other blockchain networks. It's a fun and hands-on way to build foundational C++ knowledge while exploring the world of decentralized technology.
