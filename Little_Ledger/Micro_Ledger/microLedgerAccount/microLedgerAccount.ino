@@ -457,8 +457,8 @@ void handleReset() {
   static unsigned long lastWakeTime = 0;
   unsigned long currentTime = millis();
 
-  // Prevent button handling for 10 seconds after last action
-  if (currentTime - lastWakeTime < 10000) {
+  // Prevent button handling for 3 seconds after last action
+  if (currentTime - lastWakeTime < 3000) {
     return;
   }
 
