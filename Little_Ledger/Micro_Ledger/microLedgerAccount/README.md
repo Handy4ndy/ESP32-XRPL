@@ -90,7 +90,7 @@ The OLED screen (SSD1306) shows:
 ## Configuration
 
 ### WiFi Settings
-Edit the WiFi credentials in the main sketch:
+Edit the WiFi credentials in the Connection.cpp file:
 ```cpp
 const char* ssid = "YOUR_NETWORK_SSID";
 const char* password = "YOUR_NETWORK_PASSWORD";
@@ -104,7 +104,7 @@ const char* password = "MyPassword123";
 ```
 
 ### WebSocket Settings
-To change the WebSocket server, modify:
+To change the WebSocket server, modify in the main .ino file:
 ```cpp
 const char* websocket_host = "xahau.org";
 const uint16_t websocket_port = 443;
