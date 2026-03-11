@@ -52,7 +52,7 @@ Additional Features:
    - **VCC** to 3v3.
 7. Enable the internal pull-up resistor for GPIO4 in the code.
 
-![Circuit Diagram](https://github.com/Handy4ndy/ESP32-XRPL/blob/main/src/Developer_Kit/GettingStarted/devKitRef/04_Display.png)
+![Circuit Diagram](https://github.com/Handy4ndy/ESP32-XRPL/blob/main/Little_Ledger/Developer_Kit/GettingStarted/devKitRef/04_Display.png)
 
 ---
 
