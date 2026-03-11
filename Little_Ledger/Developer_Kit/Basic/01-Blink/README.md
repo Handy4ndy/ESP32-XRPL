@@ -37,7 +37,7 @@ The tutorial also includes a challenge to refactor the code using a `switch` cas
 3. Connect the **BLUE** pin of the RGB LED to GPIO18.
 4. Connect the **common cathode** (or anode, depending on your LED type) to GND (or 3.3V for common anode).
 
-![Circuit Diagram](https://github.com/Handy4ndy/ESP32-XRPL/Little_Ledger/Developer_Kit/GettingStarted/devKitRef/01-Blink.png)
+![Circuit Diagram](https://github.com/Handy4ndy/ESP32-XRPL/blob/main/Little_Ledger/Developer_Kit/GettingStarted/devKitRef/01-Blink.png)
 
 ---
 
