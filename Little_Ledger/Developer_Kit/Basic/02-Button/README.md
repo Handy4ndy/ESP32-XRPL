@@ -41,7 +41,7 @@ The tutorial also includes a challenge to extend the functionality by adding a n
 4. Connect one leg of the button to GPIO4 and the other leg to GND.
 5. Enable the internal pull-up resistor for GPIO4 in the code.
 
-![Circuit Diagram](https://github.com/Handy4ndy/ESP32-XRPL/blob/main/src/Developer_Kit/GettingStarted/devKitRef/02-Button.png)
+![Circuit Diagram](https://github.com/Handy4ndy/ESP32-XRPL/blob/main/Little_Ledger/Developer_Kit/GettingStarted/devKitRef/02-Button.png)
 
 ---
 
