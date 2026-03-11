@@ -1,6 +1,6 @@
 # Tutorial 04: Display
  
-![Circuit Diagram](https://github.com/Handy4ndy/ESP32-XRPL/blob/main/src/Developer_Kit/GettingStarted/devKitRef/DisplayScreen.png)
+![Circuit Diagram](https://github.com/Handy4ndy/ESP32-XRPL/blob/main/Little_Ledger/Developer_Kit/GettingStarted/devKitRef/DisplayScreen.png)
 
 ## Overview
 
