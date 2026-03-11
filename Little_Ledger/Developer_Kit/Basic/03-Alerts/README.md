@@ -1,6 +1,6 @@
 # Tutorial 03: Alerts
 
-![Circuit Diagram](https://github.com/Handy4ndy/ESP32-XRPL/blob/main/src/Developer_Kit/GettingStarted/devKitRef/Speaker.png)
+![Circuit Diagram](https://github.com/Handy4ndy/ESP32-XRPL/blob/main/Little_Ledger/Developer_Kit/GettingStarted/devKitRef/Speaker.png)
 
 ## Overview
 
@@ -46,7 +46,7 @@ Additional Features:
 5. Connect the speaker or buzzer to GPIO17 and GND.
 6. Enable the internal pull-up resistor for GPIO4 in the code.
 
-![Circuit Diagram](https://github.com/Handy4ndy/ESP32-XRPL/blob/main/src/Developer_Kit/GettingStarted/devKitRef/03-Alerts.png)
+![Circuit Diagram](https://github.com/Handy4ndy/ESP32-XRPL/blob/main/Little_Ledger/Developer_Kit/GettingStarted/devKitRef/03-Alerts.png)
 
 ---
 
